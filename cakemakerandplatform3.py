@@ -1,0 +1,186 @@
+#cakemakerandplatform3
+from turtle import Turtle, Screen
+
+sc = Screen()
+sc.bgcolor("white")
+
+turta = Turtle()
+turta.shape("turtle")
+turta.pensize(1)
+turta.pencolor("black")
+
+def cakemakerandplatform(a, b, size, x, y, color, length):
+    turta.up() #cakemaker
+    turta.goto(a + size/4 ,b )
+    turta.down()
+
+    turta.begin_fill()
+    turta.fillcolor("purple")
+    
+    turta.fd(size)
+    turta.left(90)
+    turta.fd(size/6)
+    turta.left(90)
+    turta.fd(size)
+    turta.left(90)
+    turta.fd(size/6)
+
+    turta.end_fill()
+
+    turta.begin_fill()
+    turta.fillcolor("pink")
+    turta.left(180)
+    turta.fd(size/6)
+    turta.right(90)
+    turta.fd(size)
+    turta.left(90)
+    turta.fd(size/6)
+    turta.left(90)
+    turta.fd(size)
+    turta.left(90)
+    turta.fd(size/6)
+
+    turta.end_fill()
+
+    turta.begin_fill()
+    turta.fillcolor("purple")
+    turta.left(180)
+    turta.fd(size/6)
+    turta.right(90)
+    turta.fd(size)
+    turta.left(90)
+    turta.fd(size/6)
+    turta.left(90)
+    turta.fd(size)
+    turta.left(90)
+    turta.fd(size/6)
+
+    turta.end_fill()
+
+    turta.right(180)
+    turta.fd(size/6)
+    turta.right(90)
+    turta.fd(size/2)
+    turta.left(90)
+    turta.up()
+    turta.fd(10)
+    turta.down()
+    turta.begin_fill()
+    turta.fillcolor("red")
+    turta.circle(10)
+
+    turta.end_fill()
+
+    turta.up()
+    turta.begin_fill()
+    turta.fillcolor("white")
+    turta.goto(a + size/4, b + size/6 + size/6 + size/6)
+    turta.down()
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180) 
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)
+    turta.left(180)
+    turta.circle(10,180)   
+
+    turta.end_fill()
+    
+    turta.up()
+    turta.goto(a + size/4, b + size/6 + size/6 + size/6)
+    turta.down()
+    turta.right(90)
+    turta.pencolor("black")
+    turta.fd(size)
+
+    turta.up() #newtable
+    turta.goto(x,y)
+    turta.down()
+
+    turta.begin_fill()
+    turta.fillcolor(color)
+
+    turta.fd(length)
+    turta.right(90)
+    turta.fd(length/4)
+    turta.right(90)
+    turta.fd(length)
+    turta.right(90)
+    turta.fd(length/4)
+
+    turta.up()
+    turta.goto(x,y)
+    turta.down()
+
+    turta.right(90)
+    turta.fd(length)
+    turta.right(90)
+    turta.fd(length)
+    turta.right(90)
+    turta.fd(length/10)
+    turta.right(90)
+    turta.fd(length * 3/4)
+
+    turta.up()
+    turta.goto(x,y)
+    turta.down()
+
+    turta.right(180)
+    turta.fd(length)
+    turta.left(90)
+    turta.fd(length/10)
+    turta.left(90)
+    turta.fd(length * 3/4)
+
+    turta.up()
+    turta.goto(x,y)
+    turta.down()
+
+    turta.right(180)
+    turta.fd(length/4)
+    turta.left(90)
+    turta.fd(length/10 + length/10)
+    turta.right(90)
+    turta.fd(length/2)
+    turta.left(90)
+    turta.fd(length/10)
+    turta.left(90)
+    turta.fd(length/2)
+
+    turta.up()
+    turta.goto(x,y)
+    turta.down()
+
+    turta.right(90)
+    turta.fd(length)
+    turta.right(90)
+    turta.fd(length/4)
+    turta.right(90)
+    turta.fd(length/10 + length/10)
+    turta.left(90)
+    turta.fd(length/2)
+    turta.right(90)
+    turta.fd(length/10)
+    turta.right(90)
+    turta.fd(length/2)
+
+    turta.end_fill()
+
+    sc.exitonclick()
+
+    sc.exitonclick()
+
+    #end of function
